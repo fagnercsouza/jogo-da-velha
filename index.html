@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <div id="container">
+    <!-- <h1>Joga da Velha</h1> -->
+        <div id="mostrador">
+            <h3>Vez do logador: </h3>
+            <img src="" alt="">
+        </div>
+        <p id="alerta"></p>
+        <div class="tabuleiro">
+            <div class="espaco" id="a1" jogada=""></div>
+            <div class="espaco" id="a2" jogada=""></div>
+            <div class="espaco" id="a3" jogada=""></div>
+
+            <div class="espaco" id="b1" jogada=""></div>
+            <div class="espaco" id="b2" jogada=""></div>
+            <div class="espaco" id="b3" jogada=""></div>
+            
+            <div class="espaco" id="c1" jogada=""></div>
+            <div class="espaco" id="c2" jogada=""></div>
+            <div class="espaco" id="c3" jogada=""></div>
+        </div>
+        <div id="reload">
+        <button class="borda" onclick=location.reload()> Novo jogo</button>
+        </div>
+        <!-- <div id="form">
+            <form action="">
+                <input class="borda" type="text" placeholder="Jogador 1" >
+                <input class="borda" type="text" placeholder="Jogador 2">
+            </form>
+        </div> -->
+    </div>
+
+    
+
+
+    <script type="text/javascript" src="js/game.js"></script>
+</body>
+</html>
