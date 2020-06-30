@@ -68,7 +68,7 @@ async function verificarVencedor(){
         if(a1 == "x"){
             vencedor = player1.nome;
         }else  vencedor = player2.nome;
-    } else if ( ( (b2 == b1 && b2 == b3)||(b2 == a2 && b2 == c2)||(b2 == a3 && b2 == c1) ) && b1 !=""){
+    } else if ( ( (b2 == b1 && b2 == b3)||(b2 == a2 && b2 == c2)||(b2 == a3 && b2 == c1) ) && b2 !=""){
         if(b2 == "x"){
             vencedor = player1.nome;
         }else  vencedor = player2.nome;
@@ -85,7 +85,7 @@ async function verificarVencedor(){
         gameOver = true;
         
         await sleep(50);
-        alert("O vencedor foi: '"+ vencedor + "'")
+        alert("O vencedor foi: '"+ vencedor + "'", location.reload())
 
     }
 
